@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A28E926-1ED6-4F47-AE83-B91BB711B6ED}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lazybug</RootNamespace>
+    <AssemblyName>Lazybug</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AC repair and services.aspx" />
+    <Content Include="Anniversary.aspx" />
+    <Content Include="Apply for work.aspx" />
+    <Content Include="App_data\Database2.mdf" />
+    <Content Include="App_data\Database2_log.ldf">
+      <DependentUpon>Database2.mdf</DependentUpon>
+    </Content>
+    <Content Include="Astrology.aspx" />
+    <Content Include="Bathroom cleaning.aspx" />
+    <Content Include="Bathroom.aspx" />
+    <Content Include="Bedrooms.aspx" />
+    <Content Include="Bike wash and service.aspx" />
+    <Content Include="Birth or Death Certificates.aspx" />
+    <Content Include="Birthday.aspx" />
+    <Content Include="Cakes delivery.aspx" />
+    <Content Include="Car wash and Service.aspx" />
+    <Content Include="Cargo services.aspx" />
+    <Content Include="Carpenters.aspx" />
+    <Content Include="Caste Certificate.aspx" />
+    <Content Include="Computer services.aspx" />
+    <Content Include="CSS\SS1.css" />
+    <Content Include="Dot net.aspx" />
+    <Content Include="Driving School.aspx" />
+    <Content Include="Electricians.aspx" />
+    <Content Include="Festivals.aspx" />
+    <Content Include="Flowers delivery.aspx" />
+    <Content Include="Furniture.aspx" />
+    <Content Include="Home appliances repair.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="House cleaning.aspx" />
+    <Content Include="img\Logos for lazyBug\Automobile services1.png" />
+    <Content Include="img\Logos for lazyBug\civil1.jpg" />
+    <Content Include="img\Logos for lazyBug\Electronic services.jpg" />
+    <Content Include="img\Logos for lazyBug\events mangement1.jpg" />
+    <Content Include="img\Logos for lazyBug\interior designing 3.jpg" />
+    <Content Include="img\Logos for lazyBug\Projects.png" />
+    <Content Include="Income Certificate.aspx" />
+    <Content Include="java.aspx" />
+    <Content Include="Kitchen appliances repair.aspx" />
+    <Content Include="Kitchen.aspx" />
+    <Content Include="Laundry.aspx" />
+    <Content Include="Living room.aspx" />
+    <Content Include="Lock or Key repair.aspx" />
+    <Content Include="Logo design.aspx" />
+    <Content Include="Marriage Certificate.aspx" />
+    <Content Include="Mason.aspx" />
+    <Content Include="Mobile repair.aspx" />
+    <Content Include="MS office.aspx" />
+    <Content Include="New year.aspx" />
+    <Content Include="Painters.aspx" />
+    <Content Include="PAN card Services.aspx" />
+    <Content Include="Pandits and purohits.aspx" />
+    <Content Include="Passport Consultants.aspx" />
+    <Content Include="Pest control.aspx" />
+    <Content Include="Pets care.aspx" />
+    <Content Include="Photoshop.aspx" />
+    <Content Include="Plant maintenance.aspx" />
+    <Content Include="Plumbers.aspx" />
+    <Content Include="Poster design.aspx" />
+    <Content Include="resume.aspx" />
+    <Content Include="Sewage cleaning.aspx" />
+    <Content Include="Sofa cleaning.aspx" />
+    <Content Include="Swimming pool cleaning.aspx" />
+    <Content Include="Terrace gardening.aspx" />
+    <Content Include="TV repair services.aspx" />
+    <Content Include="uploads\Home.aspx" />
+    <Content Include="img\footer.png" />
+    <Content Include="img\Pest_ControlW.jpg" />
+    <Content Include="img\stock-vector-beautiful-red-ladybug-flight-icon-simple-elements-logo-235367092.jpg" />
+    <Content Include="JSS\bootstrap.min.js" />
+    <Content Include="JSS\JSS1.js" />
+    <Content Include="User Home.aspx" />
+    <Content Include="Postwork.aspx" />
+    <Content Include="Registration.aspx" />
+    <Content Include="VB.aspx" />
+    <Content Include="Wall Mounting.aspx" />
+    <Content Include="Washing machine repair.aspx" />
+    <Content Include="Water tank cleaning.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AC repair and services.aspx.cs">
+      <DependentUpon>AC repair and services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AC repair and services.aspx.designer.cs">
+      <DependentUpon>AC repair and services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anniversary.aspx.cs">
+      <DependentUpon>Anniversary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anniversary.aspx.designer.cs">
+      <DependentUpon>Anniversary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Apply for work.aspx.cs">
+      <DependentUpon>Apply for work.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Apply for work.aspx.designer.cs">
+      <DependentUpon>Apply for work.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Astrology.aspx.cs">
+      <DependentUpon>Astrology.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Astrology.aspx.designer.cs">
+      <DependentUpon>Astrology.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bathroom cleaning.aspx.cs">
+      <DependentUpon>Bathroom cleaning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bathroom cleaning.aspx.designer.cs">
+      <DependentUpon>Bathroom cleaning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bathroom.aspx.cs">
+      <DependentUpon>Bathroom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bathroom.aspx.designer.cs">
+      <DependentUpon>Bathroom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bedrooms.aspx.cs">
+      <DependentUpon>Bedrooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bedrooms.aspx.designer.cs">
+      <DependentUpon>Bedrooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bike wash and service.aspx.cs">
+      <DependentUpon>Bike wash and service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bike wash and service.aspx.designer.cs">
+      <DependentUpon>Bike wash and service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Birth or Death Certificates.aspx.cs">
+      <DependentUpon>Birth or Death Certificates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Birth or Death Certificates.aspx.designer.cs">
+      <DependentUpon>Birth or Death Certificates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Birthday.aspx.cs">
+      <DependentUpon>Birthday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Birthday.aspx.designer.cs">
+      <DependentUpon>Birthday.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cakes delivery.aspx.cs">
+      <DependentUpon>Cakes delivery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cakes delivery.aspx.designer.cs">
+      <DependentUpon>Cakes delivery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Car wash and Service.aspx.cs">
+      <DependentUpon>Car wash and Service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Car wash and Service.aspx.designer.cs">
+      <DependentUpon>Car wash and Service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cargo services.aspx.cs">
+      <DependentUpon>Cargo services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cargo services.aspx.designer.cs">
+      <DependentUpon>Cargo services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Carpenters.aspx.cs">
+      <DependentUpon>Carpenters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carpenters.aspx.designer.cs">
+      <DependentUpon>Carpenters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caste Certificate.aspx.cs">
+      <DependentUpon>Caste Certificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caste Certificate.aspx.designer.cs">
+      <DependentUpon>Caste Certificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Computer services.aspx.cs">
+      <DependentUpon>Computer services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Computer services.aspx.designer.cs">
+      <DependentUpon>Computer services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dot net.aspx.cs">
+      <DependentUpon>Dot net.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dot net.aspx.designer.cs">
+      <DependentUpon>Dot net.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Driving School.aspx.cs">
+      <DependentUpon>Driving School.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Driving School.aspx.designer.cs">
+      <DependentUpon>Driving School.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Electricians.aspx.cs">
+      <DependentUpon>Electricians.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Electricians.aspx.designer.cs">
+      <DependentUpon>Electricians.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Festivals.aspx.cs">
+      <DependentUpon>Festivals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Festivals.aspx.designer.cs">
+      <DependentUpon>Festivals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flowers delivery.aspx.cs">
+      <DependentUpon>Flowers delivery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flowers delivery.aspx.designer.cs">
+      <DependentUpon>Flowers delivery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Furniture.aspx.cs">
+      <DependentUpon>Furniture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Furniture.aspx.designer.cs">
+      <DependentUpon>Furniture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home appliances repair.aspx.cs">
+      <DependentUpon>Home appliances repair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home appliances repair.aspx.designer.cs">
+      <DependentUpon>Home appliances repair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="House cleaning.aspx.cs">
+      <DependentUpon>House cleaning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="House cleaning.aspx.designer.cs">
+      <DependentUpon>House cleaning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Income Certificate.aspx.cs">
+      <DependentUpon>Income Certificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Income Certificate.aspx.designer.cs">
+      <DependentUpon>Income Certificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="java.aspx.cs">
+      <DependentUpon>java.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="java.aspx.designer.cs">
+      <DependentUpon>java.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kitchen appliances repair.aspx.cs">
+      <DependentUpon>Kitchen appliances repair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kitchen appliances repair.aspx.designer.cs">
+      <DependentUpon>Kitchen appliances repair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kitchen.aspx.cs">
+      <DependentUpon>Kitchen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kitchen.aspx.designer.cs">
+      <DependentUpon>Kitchen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Laundry.aspx.cs">
+      <DependentUpon>Laundry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Laundry.aspx.designer.cs">
+      <DependentUpon>Laundry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Living room.aspx.cs">
+      <DependentUpon>Living room.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Living room.aspx.designer.cs">
+      <DependentUpon>Living room.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lock or Key repair.aspx.cs">
+      <DependentUpon>Lock or Key repair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lock or Key repair.aspx.designer.cs">
+      <DependentUpon>Lock or Key repair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logo design.aspx.cs">
+      <DependentUpon>Logo design.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logo design.aspx.designer.cs">
+      <DependentUpon>Logo design.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marriage Certificate.aspx.cs">
+      <DependentUpon>Marriage Certificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marriage Certificate.aspx.designer.cs">
+      <DependentUpon>Marriage Certificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mason.aspx.cs">
+      <DependentUpon>Mason.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mason.aspx.designer.cs">
+      <DependentUpon>Mason.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile repair.aspx.cs">
+      <DependentUpon>Mobile repair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mobile repair.aspx.designer.cs">
+      <DependentUpon>Mobile repair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MS office.aspx.cs">
+      <DependentUpon>MS office.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MS office.aspx.designer.cs">
+      <DependentUpon>MS office.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="New year.aspx.cs">
+      <DependentUpon>New year.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="New year.aspx.designer.cs">
+      <DependentUpon>New year.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Painters.aspx.cs">
+      <DependentUpon>Painters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Painters.aspx.designer.cs">
+      <DependentUpon>Painters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAN card Services.aspx.cs">
+      <DependentUpon>PAN card Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAN card Services.aspx.designer.cs">
+      <DependentUpon>PAN card Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pandits and purohits.aspx.cs">
+      <DependentUpon>Pandits and purohits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pandits and purohits.aspx.designer.cs">
+      <DependentUpon>Pandits and purohits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Passport Consultants.aspx.cs">
+      <DependentUpon>Passport Consultants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Passport Consultants.aspx.designer.cs">
+      <DependentUpon>Passport Consultants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pest control.aspx.cs">
+      <DependentUpon>Pest control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pest control.aspx.designer.cs">
+      <DependentUpon>Pest control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pets care.aspx.cs">
+      <DependentUpon>Pets care.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pets care.aspx.designer.cs">
+      <DependentUpon>Pets care.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Photoshop.aspx.cs">
+      <DependentUpon>Photoshop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Photoshop.aspx.designer.cs">
+      <DependentUpon>Photoshop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Plant maintenance.aspx.cs">
+      <DependentUpon>Plant maintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Plant maintenance.aspx.designer.cs">
+      <DependentUpon>Plant maintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Plumbers.aspx.cs">
+      <DependentUpon>Plumbers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Plumbers.aspx.designer.cs">
+      <DependentUpon>Plumbers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Poster design.aspx.cs">
+      <DependentUpon>Poster design.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Poster design.aspx.designer.cs">
+      <DependentUpon>Poster design.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="resume.aspx.cs">
+      <DependentUpon>resume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resume.aspx.designer.cs">
+      <DependentUpon>resume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sewage cleaning.aspx.cs">
+      <DependentUpon>Sewage cleaning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sewage cleaning.aspx.designer.cs">
+      <DependentUpon>Sewage cleaning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sofa cleaning.aspx.cs">
+      <DependentUpon>Sofa cleaning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sofa cleaning.aspx.designer.cs">
+      <DependentUpon>Sofa cleaning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Swimming pool cleaning.aspx.cs">
+      <DependentUpon>Swimming pool cleaning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Swimming pool cleaning.aspx.designer.cs">
+      <DependentUpon>Swimming pool cleaning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terrace gardening.aspx.cs">
+      <DependentUpon>Terrace gardening.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terrace gardening.aspx.designer.cs">
+      <DependentUpon>Terrace gardening.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TV repair services.aspx.cs">
+      <DependentUpon>TV repair services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TV repair services.aspx.designer.cs">
+      <DependentUpon>TV repair services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uploads\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uploads\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User Home.aspx.cs">
+      <DependentUpon>User Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Home.aspx.designer.cs">
+      <DependentUpon>User Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Postwork.aspx.cs">
+      <DependentUpon>Postwork.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Postwork.aspx.designer.cs">
+      <DependentUpon>Postwork.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VB.aspx.cs">
+      <DependentUpon>VB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VB.aspx.designer.cs">
+      <DependentUpon>VB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wall Mounting.aspx.cs">
+      <DependentUpon>Wall Mounting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wall Mounting.aspx.designer.cs">
+      <DependentUpon>Wall Mounting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Washing machine repair.aspx.cs">
+      <DependentUpon>Washing machine repair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Washing machine repair.aspx.designer.cs">
+      <DependentUpon>Washing machine repair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Water tank cleaning.aspx.cs">
+      <DependentUpon>Water tank cleaning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Water tank cleaning.aspx.designer.cs">
+      <DependentUpon>Water tank cleaning.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1053</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
